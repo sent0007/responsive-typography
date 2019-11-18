@@ -37,15 +37,17 @@ article h1 {
 
 article header {
   border-bottom: 1px solid #999;
+  margin-bottom: 1.3em;
 }
 
 article header p {
   font-style: italic;
-  margin: 0 0 1.5em;
+  margin: 0 0 1.3em;
 }
 
 article > p:last-child {
   border-bottom: 1px solid #999;
+  padding-bottom: 1.3em;
 }
 
 blockquote {
@@ -54,8 +56,10 @@ blockquote {
   font-size: 1.125rem;
   margin: 0 auto;
 }
-
-ol {
+article p {
+  margin: 1.3em 0 1.3em;
+}
+article ol {
   padding: 0;
   margin-left: 1em;
 }
@@ -74,6 +78,10 @@ ol {
   h1,
   p {
     margin: 0 0 1.4em;
+  }
+
+  article h1 {
+    padding-top: 1.4em;
   }
 
 }
